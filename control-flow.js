@@ -1,21 +1,20 @@
-import "./scss/styles.scss";
-
+"use strict";
+exports.__esModule = true;
+require("./scss/styles.scss");
 /**
  * If/else
  */
-
-let count = 50;
+var count = 50;
 if (count > 0) {
-  count--;
-} else {
-  count = 0;
+    count--;
+}
+else {
+    count = 0;
 }
 console.log(count);
-
 /**
  * loop
  */
-
 // console.log("for loop");
 //
 // const keys = "abcdef";
